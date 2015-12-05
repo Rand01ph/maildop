@@ -18,8 +18,8 @@ var About = function() {
             // Initialize map
             new GMaps({
                 div: '#gmap-top',
-                lat: -33.870,
-                lng: 151.22,
+                lat: 47.6182908,
+                lng: -122.3430235,
                 zoom: 15,
                 disableDefaultUI: true,
                 scrollwheel: false

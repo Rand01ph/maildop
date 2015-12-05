@@ -15,15 +15,15 @@ var Contact = function() {
             // Initialize map
             new GMaps({
                 div: '#gmap',
-                lat: -33.8703,
-                lng: 151.2254,
+                lat: 47.6182908,
+                lng: -122.3430235,
                 zoom: 15,
                 disableDefaultUI: true,
                 scrollwheel: false
             }).addMarkers([
                 {
-                    lat: -33.8703,
-                    lng: 151.2254,
+                    lat: 47.6182908,
+                    lng: -122.3430235,
                     title: 'Find Us',
                     infoWindow: {content: '<strong>Company Address &amp; Info</strong>'},
                     animation: google.maps.Animation.DROP
